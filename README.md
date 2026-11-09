@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi, I’m Joven 👋
 
-<!--
-**Joven1014/Joven1014** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I’m doing vibe coding right now.
 
-Here are some ideas to get you started:
+## What I’m working on
+- Hosting high school Vibe Lab club
+- Windows and Mac device-tunnel support
+- Combining software and hardware use
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Skills
+`JavaScript` · `Ruby` · `C#` · `MacOS` · `CAD Design`
+
+## Aim
+- Make coding easier
+- Write clear prompts
+
+## Interesting websites I've made
+- https://tankfu.joven1014.workers.dev
+-zakozakopost.cc.cd
+
+## Contact
+- GitHub: https://github.com/Joven1014
+- Email: joven1014@126.com
+- Website: https://joven-cyber-portfolio.joven1014.workers.dev
