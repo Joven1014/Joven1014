@@ -24,7 +24,7 @@ I’m doing vibe coding right now.
 
 ## Interesting websites I've made
 - https://tankfu.joven1014.workers.dev
--zakozakopost.cc.cd
+- zakozakopost.cc.cd
 
 ## Contact
 - GitHub: https://github.com/Joven1014
