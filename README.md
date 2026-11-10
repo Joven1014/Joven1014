@@ -1,6 +1,4 @@
-# Hi, I’m Joven 👋
-
-I’m doing vibe coding right now.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:f0f9ff,50:dbeafe,100:bfdbfe&height=220&section=header&text=Hi%2C%20I%E2%80%99m%20Joven%20%F0%9F%91%8B&fontSize=50&fontColor=153f63&animation=fadeIn&fontAlignY=35&desc=I%E2%80%99m%20doing%20vibe%20coding%20right%20now&descSize=18&descAlignY=55" alt="Hi, I’m Joven 👋 — I’m doing vibe coding right now" width="100%" />
 
 ## What I’m working on
 - Hosting high school Vibe Lab club.
@@ -21,6 +19,9 @@ I’m doing vibe coding right now.
 ## Aim
 - Make coding easier
 - Write clear prompts
+
+## My agents
+`Codex`
 
 ## Interesting websites I've made
 - https://tankfu.joven1014.workers.dev
