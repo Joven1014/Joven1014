@@ -1,0 +1,40 @@
+name: Breakout Preview
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/pacman.yml
+      - README.md
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pacman-contributions
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate Joven's Breakout preview
+        uses: abozanona/pacman-contribution-graph@294c47eff28a41339a279107ae771b5fa020037a
+        with:
+          github_user_name: Joven1014
+          github_token: ${{ github.token }}
+          games: breakout
+
+      - name: Publish animations
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865
+   with:
+          target_branch: pacman-output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
