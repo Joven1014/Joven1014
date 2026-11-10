@@ -44,3 +44,11 @@
 - GitHub: https://github.com/Joven1014
 - Email: joven1014@126.com
 - Website: https://joven-cyber-portfolio.joven1014.workers.dev
+
+## GitHub Metrics
+
+<p align="left">
+  <a href="https://github.com/Joven1014">
+    <img src="./github-metrics.svg" alt="Joven's GitHub metrics, contribution calendar, languages, and community" width="480" />
+  </a>
+</p>
