@@ -29,14 +29,13 @@
 </p>
 
 ## Suggested repositories
+- Free zone internet
 <p align="left">
   <a href="https://github.com/Joven1014/Free-zone-clash">
-    <img src="./assets/freezone-icon.png"
-         alt="Freezone Internet"
-         title="Open Freezone Internet"
-         width="80" />
-  </a>
-</p>
+    <a href="https://github.com/Joven1014/Free-zone-clash">
+  <img src="https://raw.githubusercontent.com/Joven1014/Free-zone-clash/main/resources/freezone-icon.png" alt="Freezone Internet" width="80" />
+</a>
+    
 ## Interesting websites I've made
 - https://tankfu.joven1014.workers.dev
 - zakozakopost.cc.cd
