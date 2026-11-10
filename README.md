@@ -49,7 +49,7 @@
 <table>
   <tr>
     <th width="50%" align="left">📊 GitHub Metrics</th>
-    <th width="50%" align="left">🧱 Breakout Contributions</th>
+    <th width="50%" align="left">🎮 Arcade Previews</th>
   </tr>
   <tr>
     <td width="50%" valign="top">
@@ -58,10 +58,23 @@
       </a>
     </td>
     <td width="50%" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joven1014/Joven1014/pacman-output/breakout-contribution-graph-dark.svg" />
-        <img src="https://raw.githubusercontent.com/Joven1014/Joven1014/pacman-output/breakout-contribution-graph.svg" alt="Animated Breakout preview of Joven's GitHub contributions" width="480" />
-      </picture>
+      <strong>👻 Pac-Man</strong><br />
+      <img src="https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/main/assets/demo/pacman.svg" alt="Pac-Man animated demo preview" width="480" /><br />
+      <strong>🧱 Breakout</strong><br />
+      <img src="https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/main/assets/demo/breakout.svg" alt="Breakout animated demo preview" width="480" /><br />
+      <strong>🚀 Galaga</strong><br />
+      <img src="https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/main/assets/demo/galaga.svg" alt="Galaga animated demo preview" width="480" /><br />
+      <strong>🫧 Puzzle Bobble</strong><br />
+      <img src="https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/main/assets/demo/puzzle-bobble.svg" alt="Puzzle Bobble animated demo preview" width="480" /><br />
+      <strong>💣 Bomberman</strong><br />
+      <img src="https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/main/assets/demo/bomberman.svg" alt="Bomberman animated demo preview" width="480" /><br />
+      <strong>💠 Minesweeper</strong><br />
+      <img src="https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/main/assets/demo/minesweeper.svg" alt="Minesweeper animated demo preview" width="480" /><br />
+      <strong>🐍 Snake</strong><br />
+      <img src="https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/main/assets/demo/snake.svg" alt="Snake animated demo preview" width="480" /><br />
+      <strong>🟪 Tetris</strong><br />
+      <img src="https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/main/assets/demo/tetris.svg" alt="Tetris animated demo preview" width="480" /><br />
+      <sub>Demo previews by <a href="https://github.com/abozanona/pacman-contribution-graph">abozanona</a>.</sub>
     </td>
   </tr>
 </table>
