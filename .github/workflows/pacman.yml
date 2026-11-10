@@ -31,7 +31,7 @@ jobs:
 
       - name: Publish animations
         uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865
-     with:
+        with:
           target_branch: pacman-output
           build_dir: dist
           keep_history: true
