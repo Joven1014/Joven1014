@@ -49,7 +49,7 @@
 <table>
   <tr>
     <th width="50%" align="left">📊 GitHub Metrics</th>
-    <th width="50%" align="left">👻 Pac-Man Contributions</th>
+    <th width="50%" align="left">🧱 Breakout Contributions</th>
   </tr>
   <tr>
     <td width="50%" valign="top">
@@ -59,8 +59,8 @@
     </td>
     <td width="50%" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joven1014/Joven1014/pacman-output/pacman-contribution-graph-dark.svg" />
-        <img src="https://raw.githubusercontent.com/Joven1014/Joven1014/pacman-output/pacman-contribution-graph.svg" alt="Pac-Man and ghosts crossing Joven's GitHub contribution graph" width="480" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joven1014/Joven1014/pacman-output/breakout-contribution-graph-dark.svg" />
+        <img src="https://raw.githubusercontent.com/Joven1014/Joven1014/pacman-output/breakout-contribution-graph.svg" alt="Animated Breakout preview of Joven's GitHub contributions" width="480" />
       </picture>
     </td>
   </tr>
