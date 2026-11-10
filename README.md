@@ -22,7 +22,21 @@
 
 ## My agents
 `Codex`
+<p align="left">
+  <img src="https://raw.githubusercontent.com/UnoxyRich/UnoxyRich/main/assets/tools/codex.png"
+       alt="Codex"
+       width="80" />
+</p>
 
+## Suggested repositories
+<p align="left">
+  <a href="https://github.com/Joven1014/Free-zone-clash">
+    <img src="./assets/freezone-icon.png"
+         alt="Freezone Internet"
+         title="Open Freezone Internet"
+         width="80" />
+  </a>
+</p>
 ## Interesting websites I've made
 - https://tankfu.joven1014.workers.dev
 - zakozakopost.cc.cd
