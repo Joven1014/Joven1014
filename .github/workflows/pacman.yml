@@ -34,6 +34,6 @@ jobs:
         with:
           target_branch: pacman-output
           build_dir: dist
-          keep_history: true
+          keep_history: tru
         env:
           GITHUB_TOKEN: ${{ github.token }}
