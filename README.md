@@ -46,8 +46,22 @@
 - Website: https://joven-cyber-portfolio.joven1014.workers.dev
 
 ## GitHub Metrics
-<p align="left">
-  <a href="https://github.com/Joven1014">
-    <img src="./github-metrics.svg" alt="Joven's GitHub metrics, contribution calendar, languages, and community" width="480" />
-  </a>
-</p>
+<table>
+  <tr>
+    <th width="50%" align="left">📊 GitHub Metrics</th>
+    <th width="50%" align="left">👻 Pac-Man Contributions</th>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Joven1014">
+        <img src="./github-metrics.svg" alt="Joven's GitHub metrics, contribution calendar, languages, and community" width="480" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joven1014/Joven1014/pacman-output/pacman-contribution-graph-dark.svg" />
+        <img src="https://raw.githubusercontent.com/Joven1014/Joven1014/pacman-output/pacman-contribution-graph.svg" alt="Pac-Man and ghosts crossing Joven's GitHub contribution graph" width="480" />
+      </picture>
+    </td>
+  </tr>
+</table>
