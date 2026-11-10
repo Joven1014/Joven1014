@@ -22,12 +22,56 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: Read the current metrics dimensions
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+
       - name: Generate Joven's Breakout preview
         uses: abozanona/pacman-contribution-graph@294c47eff28a41339a279107ae771b5fa020037a
         with:
           github_user_name: Joven1014
           github_token: ${{ github.token }}
           games: breakout
+
+      - name: Match the metrics panel size
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import re
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          def dimension(root, name):
+              value = root.get(name, '')
+              if not re.fullmatch(r'[0-9]+(?:\.[0-9]+)?(?:px)?', value):
+                  raise ValueError(f'Invalid SVG {name}: {value!r}')
+              number = float(value.removesuffix('px'))
+              if number <= 0:
+                  raise ValueError(f'Non-positive SVG {name}')
+              return number
+
+          metrics = ET.parse('github-metrics.svg').getroot()
+          width, height = dimension(metrics, 'width'), dimension(metrics, 'height')
+          for name in ('breakout-contribution-graph.svg', 'breakout-contribution-graph-dark.svg'):
+              path = Path('dist') / name
+              original = path.read_text()
+              root = ET.fromstring(original)
+              sw, sh = dimension(root, 'width'), dimension(root, 'height')
+              scale = min(width / sw, height / sh)
+              x, y = (width - sw * scale) / 2, (height - sh * scale) / 2
+              original = re.sub(r'^\s*<\?xml[^?]*\?>', '', original)
+              dark = '-dark.svg' in name
+              background, border = ('#0d1117', '#30363d') if dark else ('#ffffff', '#dbeafe')
+              panel = (
+                  f'<svg xmlns="http://www.w3.org/2000/svg" width="{width:g}" height="{height:g}" viewBox="0 0 {width:g} {height:g}">'
+                  '<title>Joven’s Breakout contribution preview</title>'
+                  f'<rect width="{width:g}" height="{height:g}" rx="12" fill="{background}"/>'
+                  f'<g transform="translate({x:g} {y:g}) scale({scale:.12g})">{original}</g>'
+                  f'<rect x="0.5" y="0.5" width="{width-1:g}" height="{height-1:g}" rx="12" fill="none" stroke="{border}"/>'
+                  '</svg>'
+              )
+              ET.fromstring(panel)
+              path.write_text(panel)
+          PY
 
       - name: Publish animations
         uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865
